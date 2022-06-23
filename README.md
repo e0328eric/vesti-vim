@@ -1,2 +1,2 @@
 # vesti-vim
-vesti plugin for vim
+Syntax highlighting for vim/neovim
