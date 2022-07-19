@@ -67,8 +67,8 @@ hi vestiSharp            ctermfg=180  guifg=#d7af87
 hi vestiAt               ctermfg=180  guifg=#d7af87
 hi vestiDollar           ctermfg=180  guifg=#d7af87
 hi vestiLatexComment     ctermfg=180  guifg=#d7af87
-hi vestiTextMath         ctermfg=67   guifg=#5f87af
-hi vestiInlineMath       ctermfg=67   guifg=#5f87af
+hi vestiTextMath         ctermfg=129  guifg=#af00ff
+hi vestiInlineMath       ctermfg=129  guifg=#af00ff
 
 delcommand HiLink
 
