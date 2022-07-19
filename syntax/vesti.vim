@@ -65,9 +65,10 @@ hi vestiArgSplitter      ctermfg=37   guifg=#00afaf
 hi vestiSharp            ctermfg=180  guifg=#d7af87
 hi vestiSharp            ctermfg=180  guifg=#d7af87
 hi vestiAt               ctermfg=180  guifg=#d7af87
-hi vestiDollar           ctermfg=180    guifg=#d7af87
-hi vestiTextMath         ctermfg=159  guifg=#afffff
-hi vestiInlineMath       ctermfg=159  guifg=#afffff
+hi vestiDollar           ctermfg=180  guifg=#d7af87
+hi vestiLatexComment     ctermfg=180  guifg=#d7af87
+hi vestiTextMath         ctermfg=65   guifg=#5f875f
+hi vestiInlineMath       ctermfg=65   guifg=#5f875f
 
 delcommand HiLink
 
