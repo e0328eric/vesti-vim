@@ -61,8 +61,8 @@ HiLink vestiComment Comment
 HiLink vestiTodo Todo
 HiLink vestiNumber Number
 HiLink vestiVerbatim PreProc 
-HiLink vestiTextMath Todo
-HiLink vestiInlineMath Todo
+HiLink vestiTextMath PreProc
+HiLink vestiInlineMath PreProc
 hi vestiArgSplitter      ctermfg=37   guifg=#00afaf
 hi vestiSharp            ctermfg=180  guifg=#d7af87
 hi vestiSharp            ctermfg=180  guifg=#d7af87
