@@ -14,6 +14,7 @@ syn region vestiBrackets       contained extend keepend matchgroup=Bold start=+\
 
 syn keyword vestiKeyword       docclass begenv nextgroup=vestiEnv skipwhite
 syn match vestiKeyword         "\vdefun\*?" nextgroup=vestiEnv skipwhite
+syn match vestiKeyword         "\vouterdefun\*?" nextgroup=vestiEnv skipwhite
 syn keyword vestiKeyword       import startdoc endenv mst mnd docstartmode nondocclass
 syn match vestiKeyword         "\vendfun\*?"
 syn keyword vestiMathKeyword   mtxt etxt
