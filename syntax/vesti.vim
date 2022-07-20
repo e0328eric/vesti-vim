@@ -13,7 +13,9 @@ endif
 syn region vestiBrackets       contained extend keepend matchgroup=Bold start=+\(\\\)\@<!\[+ end=+]\|$+ skip=+\\\s*$\|\(\\\)\@<!\\]+ contains=@tclCommandCluster
 
 syn keyword vestiKeyword       docclass begenv nextgroup=vestiEnv skipwhite
+syn match vestiKeyword         "\vdefun\*?" nextgroup=vestiEnv skipwhite
 syn keyword vestiKeyword       import startdoc endenv mst mnd docstartmode nondocclass
+syn match vestiKeyword         "\vendfun\*?"
 syn keyword vestiMathKeyword   mtxt etxt
 
 syn match   vestiFunction        "\v\\([a-zA-Z@]+)|\\\$|\\\\|\\\#"
