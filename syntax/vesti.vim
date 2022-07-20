@@ -19,7 +19,7 @@ syn match vestiKeyword         "\vendfun\*?"
 syn keyword vestiMathKeyword   mtxt etxt
 
 syn match   vestiFunction        "\v\\([a-zA-Z@]+)|\\\$|\\\\|\\\#"
-syn match   vestiEnv             "[a-zA-Z@]+\*?" contained
+syn match   vestiEnv             "\v[a-zA-Z@]+\*?" contained
 syn region  vestiComment         start="%" end="$" contains=vestiTodo
 syn region  vestiComment         start="%\*" end="\*%" contains=vestiTodo,@Spell
 syn region  vestiVerbatim        start="%-" end="-%"
