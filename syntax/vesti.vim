@@ -20,6 +20,11 @@ syn keyword vestiMathKeyword   mtxt etxt
 
 syn match   vestiFunction        "\v\\([a-zA-Z@]+)|\\\$|\\\\|\\\#"
 syn match   vestiEnv             "\v[a-zA-Z@]+\*?" contained
+syn match   vestiArgSplitter     "@"
+syn match   vestiSharp           "#"
+syn match   vestiAt              "@!"
+syn match   vestiDollar          "$!"
+syn match   vestiLatexComment    "%!"
 syn region  vestiComment         start="%" end="$" contains=vestiTodo
 syn region  vestiComment         start="%\*" end="\*%" contains=vestiTodo,@Spell
 syn region  vestiVerbatim        start="%-" end="-%"
@@ -28,11 +33,6 @@ syn region  vestiTextMath        start="\\(" end="\\)" contains=vestiMathKeyword
 syn region  vestiTextMath        start="mst" end="mnd" contains=vestiMathKeyword,vestiFunction
 syn region  vestiInlineMath      start="\\\[" end="\\\]" contains=vestiMathKeyword,vestiFunction
 syn region  vestiInlineMath      start="dmst" end="dmnd" contains=vestiMathKeyword,vestiFunction
-syn match   vestiArgSplitter     "@"
-syn match   vestiSharp           "#"
-syn match   vestiAt              "@!"
-syn match   vestiDollar          "$!"
-syn match   vestiLatexComment    "%!"
 syn keyword vestiTodo            TODO FIXME XXX contained
 
 " numbers (including longs and complex)
