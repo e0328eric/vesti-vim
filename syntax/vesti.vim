@@ -58,7 +58,6 @@ HiLink vestiBrackets Operator
 HiLink vestiKeyword	Keyword
 HiLink vestiMathKeyword	Keyword
 HiLink vestiEnv Function
-HiLink vestiFunction Identifier
 HiLink vestiComment Comment
 HiLink vestiTodo Todo
 HiLink vestiNumber Number
@@ -71,6 +70,7 @@ hi vestiSharp            ctermfg=180  guifg=#d7af87
 hi vestiAt               ctermfg=180  guifg=#d7af87
 hi vestiDollar           ctermfg=180  guifg=#d7af87
 hi vestiLatexComment     ctermfg=180  guifg=#d7af87
+hi vestiFunction         ctermfg=219  guifg=#ffafff
 
 delcommand HiLink
 
