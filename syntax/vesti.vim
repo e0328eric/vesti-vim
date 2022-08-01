@@ -57,6 +57,7 @@ command -nargs=+ HiLink hi link <args>
 HiLink vestiBrackets Operator
 HiLink vestiKeyword	Keyword
 HiLink vestiMathKeyword	Keyword
+HiLink vestiFunction Function
 HiLink vestiEnv Function
 HiLink vestiComment Comment
 HiLink vestiTodo Todo
@@ -70,7 +71,6 @@ hi vestiSharp            ctermfg=180  guifg=#d7af87
 hi vestiAt               ctermfg=180  guifg=#d7af87
 hi vestiDollar           ctermfg=180  guifg=#d7af87
 hi vestiLatexComment     ctermfg=180  guifg=#d7af87
-hi vestiFunction         ctermfg=162  guifg=#d70087
 
 delcommand HiLink
 
