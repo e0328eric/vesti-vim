@@ -16,8 +16,9 @@ syn keyword vestiKeyword       docclass begenv pbegenv pendenv defenv redefenv n
 syn match vestiKeyword         "\vl?o?[egx]?defun\*?" nextgroup=vestiEnv skipwhite
 syn keyword vestiKeyword       startdoc endenv mst mnd import
 syn keyword vestiKeyword       nodocclass endswith dmst dmnd
+syn match vestiKeyword         "\vmtxt\*?"
+syn match vestiKeyword         "\vetxt\*?"
 syn match vestiKeyword         "\vendfun\*?"
-syn keyword vestiMathKeyword   mtxt etxt
 
 syn match   vestiFunction        "\v\\([a-zA-Z@]+)|\\\$|\\\\|\\\#"
 syn match   vestiEnv             "\v[a-zA-Z@]+\*?" contained
