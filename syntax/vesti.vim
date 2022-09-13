@@ -14,8 +14,8 @@ syn region vestiBrackets       contained extend keepend matchgroup=Bold start=+\
 
 syn keyword vestiKeyword       docclass begenv pbegenv pendenv defenv redefenv nextgroup=vestiEnv skipwhite
 syn match vestiKeyword         "\vl?o?[egx]?defun\*?" nextgroup=vestiEnv skipwhite
-syn keyword vestiKeyword       startdoc endenv mst mnd import mtxt mtxt* etxt etxt*
-syn keyword vestiKeyword       nodocclass endswith dmst dmnd endfun endfun*
+syn keyword vestiKeyword       startdoc endenv import mtxt mtxt* etxt etxt*
+syn keyword vestiKeyword       nodocclass endswith endfun endfun*
 
 syn match   vestiFunction        "\v\\([a-zA-Z@]+)|\\\$|\\\\|\\\#"
 syn match   vestiEnv             "\v[a-zA-Z@]+\*?" contained
