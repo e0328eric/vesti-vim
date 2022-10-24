@@ -20,14 +20,14 @@ syn keyword vestiKeyword       nodocclass nonstopmode endswith endfun endfun*
 syn match   vestiFunction        "\v\\([a-zA-Z@]+)|\\\$|\\\\|\\\#"
 syn match   vestiEnv             "\v[a-zA-Z@]+\*?" contained
 syn match   vestiArgSplitter     "@"
-syn region  vestiBrackets        start="%\[" end="\]"
 syn match   vestiSharp           "#"
 syn match   vestiAt              "@!"
 syn match   vestiDollar          "$!"
-syn match   vestiLatexComment    "%!"
 syn region  vestiComment         start="%" end="$" contains=vestiTodo
 syn region  vestiComment         start="%\*" end="\*%" contains=vestiTodo,@Spell
 syn region  vestiVerbatim        start="%-" end="-%"
+syn match   vestiLatexComment    "%!"
+syn region  vestiBrackets        start="%\[" end="\]"
 syn region  vestiTextMath        start="\$" end="\$" contains=vestiMathKeyword,vestiFunction
 syn region  vestiTextMath        start="\\(" end="\\)" contains=vestiMathKeyword,vestiFunction
 syn region  vestiInlineMath      start="\\\[" end="\\\]" contains=vestiMathKeyword,vestiFunction
