@@ -20,6 +20,7 @@ syn keyword vestiKeyword       nodocclass nonstopmode endswith endfun endfun*
 syn match   vestiFunction        "\v\\([a-zA-Z@]+)|\\\$|\\\\|\\\#"
 syn match   vestiEnv             "\v[a-zA-Z@]+\*?" contained
 syn match   vestiArgSplitter     "@"
+syn match   vestiBrackets        "%["
 syn match   vestiSharp           "#"
 syn match   vestiAt              "@!"
 syn match   vestiDollar          "$!"
