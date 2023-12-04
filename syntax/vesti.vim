@@ -29,8 +29,7 @@ syn region  vestiVerbatim        start="%-" end="-%"
 syn match   vestiLatexComment    "%!"
 syn region  vestiBrackets        start="%\[" end="\]"
 syn region  vestiTextMath        start="\$" end="\$" contains=vestiMathKeyword,vestiFunction
-syn region  vestiTextMath        start="\\(" end="\\)" contains=vestiMathKeyword,vestiFunction
-syn region  vestiInlineMath      start="\\\[" end="\\\]" contains=vestiMathKeyword,vestiFunction
+syn region  vestiInlineMath      start="\$\$" end="\$\$" contains=vestiMathKeyword,vestiFunction
 syn keyword vestiTodo            TODO FIXME XXX contained
 
 " numbers (including longs and complex)
