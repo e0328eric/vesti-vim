@@ -26,6 +26,7 @@ syn match   vestiDollar          "$!"
 syn region  vestiComment         start="%" end="$" contains=vestiTodo
 syn region  vestiComment         start="%\*" end="\*%" contains=vestiTodo,@Spell
 syn region  vestiVerbatim        start="%-" end="-%"
+syn region  vestiVerbatim        start="%-#" end="$"
 syn match   vestiLatexComment    "%!"
 syn region  vestiBrackets        start="%\[" end="\]"
 syn region  vestiTextMath        start="\$" end="\$" contains=vestiMathKeyword,vestiFunction
