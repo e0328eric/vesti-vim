@@ -13,7 +13,7 @@ endif
 syn region vestiBrackets       contained extend keepend matchgroup=Bold start=+\(\\\)\@<!\[+ end=+]\|$+ skip=+\\\s*$\|\(\\\)\@<!\\]+ contains=@tclCommandCluster
 
 syn keyword vestiKeyword       docclass begenv useenv defenv redefenv nextgroup=vestiEnv skipwhite
-syn match vestiKeyword         "\vl?o?[egx]?defun\*?" nextgroup=vestiEnv skipwhite
+syn keyword vestiKeyword       defun nextgroup=vestiEnv skipwhite
 syn keyword vestiKeyword       startdoc endenv importpkg importves importfile importmod pycode
 syn keyword vestiKeyword       mainvesfile nonstopmode endswith enddef enddef*
 syn keyword vestiKeyword       importltx3 makeatletter makeatother ltx3on ltx3off
