@@ -18,7 +18,7 @@ syn keyword vestiKeyword       startdoc endenv importpkg importves importfile im
 syn keyword vestiKeyword       mainvesfile nonstopmode endswith enddef enddef*
 syn keyword vestiKeyword       importltx3 makeatletter makeatother ltx3on ltx3off
 
-syn match   vestiFunction        "\v\\([a-zA-Z_]+)|\\\$|\\\\|\\\#"
+syn match   vestiFunction        "\v\\([a-zA-Z@]+)|\\\$|\\\\|\\\#"
 syn match   vestiEnv             "\v[a-zA-Z_]+\*?" contained
 syn match   vestiArgSplitter     "@"
 syn match   vestiSharp           "#"
